@@ -1,6 +1,6 @@
 Practicing React through React's Tic-Tac-Toe tutorial - https://reactjs.org/tutorial/tutorial.html.
 
-The following are my solutions to the improvement practice included at the end of the tutorial.
+The following are my solutions to the improvement practice included at the end of the tutorial:
 
 ## 1. Display the location for each move in the format (col, row) in the move history list.
 
@@ -105,7 +105,7 @@ class Board extends React.Component {
 }
 ```
 
-To complete this task, we simply have to render the squares in two for-loops. In the first for-loop, we render the board row and second for-loop, we render the squares for each board row.
+To complete this task, we simply have to render the squares in two for-loops. In the first for-loop, we render the board row and second for-loop, we render the squares for each board row. We also have to remember to add in a key value for the square buttons and the board rows, otherwise React will throw a warning.
 
 ```javascript
 class Board extends React.Component {
